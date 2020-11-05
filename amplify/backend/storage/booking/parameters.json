@@ -1,0 +1,5 @@
+{
+    "tableName": "booking",
+    "partitionKeyName": "reservation_id",
+    "partitionKeyType": "S"
+}

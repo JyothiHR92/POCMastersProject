@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/books",
+            "lambdaFunction": "booking",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "booking",
+    "apiName": "booking",
+    "functionArns": [
+        {
+            "lambdaFunction": "booking"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-proofofconcept-dev-193151-authRole",
+        "unAuthRoleName": "amplify-proofofconcept-dev-193151-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "booking",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "eb797eb4"
+}
