@@ -1,0 +1,34 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-storebothostapp-dev-123122-authRole",
+            "UnauthRoleArn": "arn:aws:iam::822678636408:role/amplify-storebothostapp-dev-123122-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::822678636408:role/amplify-storebothostapp-dev-123122-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-storebothostapp-dev-123122-deployment",
+            "UnauthRoleName": "amplify-storebothostapp-dev-123122-unauthRole",
+            "StackName": "amplify-storebothostapp-dev-123122",
+            "StackId": "arn:aws:cloudformation:us-east-1:822678636408:stack/amplify-storebothostapp-dev-123122/d7ab98c0-130a-11eb-940f-0a63dd50faa5",
+            "AmplifyAppId": "d2lkjnadf6s8f8"
+        },
+        "categories": {
+            "auth": {
+                "cognito4d422c1c": {}
+            },
+            "xr": {
+                "StorebotHost": {
+                    "url": "https://sumerian.us-east-1.amazonaws.com/20180801/projects/Drafts/release/authTokens?sceneId=f68682cb553640f1946a9f8e5b7deb74.scene",
+                    "sceneId": "f68682cb553640f1946a9f8e5b7deb74.scene",
+                    "region": "us-east-1",
+                    "projectName": "Drafts"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2lkjnadf6s8f8",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
